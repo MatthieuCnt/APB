@@ -51,16 +51,16 @@ body {
 }
 
 .loader__item--1 {
-	background-color: #d5f8f8;
+	background-color: #005c9681;
 }
 
 .loader__item--2 {
-	background-color: #83a697b7;
+	background-color: #005c96;
 	animation-delay: 0.25s;
 }
 
 .loader__item--3 {
-	background-color: #fdfd96;
+	background-color: #005c9665;
 	animation-delay: 0.5s;
 }
 
