@@ -15,6 +15,10 @@ body {
 	margin: 0px;
 }
 
+p {
+	text-align: justify;
+	font-size: 12px;
+}
 /* Header du site*/
 
 .main-header {
