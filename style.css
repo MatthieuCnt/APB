@@ -12,12 +12,16 @@
 body {
 	font-family: 'Roboto', helvetica, sans-serif;
 	z-index: 999;
+	margin: 0px;
 }
 
 /* Header du site*/
 
 .main-header {
-	background-color: white;
+	background-image: url("img/p2.jpg");
+	background-size: cover;
+	height: 35rem;
+	
 }
 
 .loader {
@@ -96,7 +100,6 @@ body {
 
 .topnav {
 	overflow: hidden;
-	margin: 3.5% 3.5% 0% 3.5%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -122,14 +125,14 @@ body {
 }
 
 .topnav a:hover {
-	background-color: #005c9665;
-	color: black;
+	background-color: #33333389;
+	color: white;
 	border-radius: 15px;
 	font-weight: bold;
 }
 
 .topnav a.active {
-	background-color: #005c96;
+	background-color: #333333;
 	color: white;
 	border-radius: 15px;
 	font-weight: bold;
@@ -138,7 +141,7 @@ body {
 
 .topnav .icon {
 	display: none;
-	background-color: #005c96;
+	background-color: #333333 ;
 	border-radius: 15px;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
@@ -465,8 +468,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-	margin-top: 4rem;
-	margin: 4rem 2rem;
+	padding: 2rem;
 }
 
 .contenerglobal {
